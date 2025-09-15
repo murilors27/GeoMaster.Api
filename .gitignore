@@ -1,0 +1,66 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Rider / VSCode / VS local settings
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2022 generated files
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+*.ndf
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# Logs
+*.log
+*.tlog
+
+# Others
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# Local secrets (não subir configs sensíveis)
+secrets.json
+
+# Publish outputs
+publish/
+wwwroot/
